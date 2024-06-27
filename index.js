@@ -11,7 +11,7 @@ document.getElementsByClassName('header')[0].innerHTML = `
                     <ion-icon name="menu-outline" ></ion-icon>
                 </div>
                 <a href="index.html" class="lopo text-white">
-                    <img src="./image/logo.png" alt="logo" class="mx-auto w-[90px]">
+                    <img src="./image/10001.svg" alt="logo" class="mx-auto w-[90px]">
                 </a>
                 <div class="hidden md:block font-bold *:px-4 *:py-1 *:rounded-full  text-[#FFC659]">
                     <button onclick="url()" class="border border-[#FFC659] hover:bg-[#FFC659]  hover:text-white ease-in-out duration-700">ĐĂNG KÝ</button>
