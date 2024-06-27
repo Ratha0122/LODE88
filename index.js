@@ -10,9 +10,9 @@ document.getElementsByClassName('header')[0].innerHTML = `
                 <div onclick="OpenMenu()" class="menu md:hidden text-white text-3xl ">
                     <ion-icon name="menu-outline" ></ion-icon>
                 </div>
-                <div class="lopo text-white">
+                <a href="index.html" class="lopo text-white">
                     <img src="./image/logo.png" alt="logo" class="mx-auto w-[90px]">
-                </div>
+                </a>
                 <div class="hidden md:block font-bold *:px-4 *:py-1 *:rounded-full  text-[#FFC659]">
                     <button onclick="url()" class="border border-[#FFC659] hover:bg-[#FFC659]  hover:text-white ease-in-out duration-700">ĐĂNG KÝ</button>
                     <button onclick="url()" class="border border-[#b36013] hover:bg-[#b36013] text-[#b36013] hover:text-white ease-in-out duration-700">ĐĂNG NHẬP</button>
