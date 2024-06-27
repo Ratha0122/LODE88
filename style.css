@@ -1,0 +1,56 @@
+.txt h1 {
+    color: #068574;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.txt h2 {
+    color: hwb(172 6% 7%);
+    font-size: 1.7rem;
+}
+
+.txt h3 {
+    color: hwb(172 6% 7%);
+    font-size: 1.3rem;
+}
+
+.txt h4 {
+    color: hwb(172 6% 7%);
+    font-size: 1rem;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+ul li {
+    list-style: disc;
+    padding-top: 10px;
+}
+
+img {
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+
+    .txt h1 {
+        color: #068574;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .txt h2 {
+        color: hwb(172 6% 7%);
+        font-size: 1.3rem;
+    }
+
+    .txt h3 {
+        color: hwb(172 6% 7%);
+        font-size: 1.2rem;
+    }
+}
