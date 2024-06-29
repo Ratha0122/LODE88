@@ -23,15 +23,15 @@ document.getElementsByClassName('header')[0].innerHTML = `
         
         <nav class="bg-[#D01C2D] ">
             <div id="menu" class="mx-auto text-white hidden font-bold w-[100%] md:block md:bg-transparent ease-in-out duration-700 bg-[#63290f] h-screen md:h-auto absolute md:relative top-0 left-0 ">
-                <ul class="relative  md:top-0 top-10  md:flex justify-center flex-wrap items-center *:py-4 *:px-4  *:md:border-none *:border-b *:list-none">
-                    <li class="hover:bg-gray- md:hover:bg-[#04065c]"><a href="index.html" >LODE88</a></li>
-                    <li class="hover:bg-gray-600 md:hover:bg-[#04065c]"><a href="huong-dan.html">HƯỚNG DẪN</a></li>
-                    <li class="hover:bg-gray-600 md:hover:bg-[#04065c]"><a href="dan-de-hom-nay.html"> DÀN ĐỀ HÔM NAY</a></li>
-                    <li class="hover:bg-gray-600 md:hover:bg-[#04065c]"><a href="casino.html">CASINO</a></li>
-                    <li class="hover:bg-gray-600 md:hover:bg-[#04065c]"><a href="lode.html">LÔ ĐỀ</a></li>
-                    <li class="hover:bg-gray-600 md:hover:bg-[#04065c]"><a href="du-doan-cau-lo.html">DỰ ĐOÁN CẦU LÔ</a></li>
-                    <li class="hover:bg-gray- md:hover:bg-[#04065c]"><a href="keo-nha-cai.html">KÈO NHÀ CÁI</a></li>
-                    <li class="hover:bg-gray-600 md:hover:bg-[#04065c]"><a href="soi-cau.html">SOI CẦU</a></li>
+            <ul class="relative  md:top-0 top-10  md:flex justify-center flex-wrap items-center *:py-4 *:px-4  *:md:border-none *:border-b *:list-none">
+            <li class="hover:bg-gray-600 active md:hover:bg-[#04065c]"><a href="index.html" >LODE08</a></li>
+                    <li class="hover:bg-gray-600 active md:active md:hover:bg-[#04065c]"><a href="huong-dan.html">HƯỚNG DẪN</a></li>
+                    <li class="hover:bg-gray-600 active md:hover:bg-[#04065c]"><a href="dan-de-hom-nay.html"> DÀN ĐỀ HÔM NAY</a></li>
+                    <li class="hover:bg-gray-600 active md:hover:bg-[#04065c]"><a href="casino.html">CASINO</a></li>
+                    <li class="hover:bg-gray-600 active md:hover:bg-[#04065c]"><a href="lode.html">LÔ ĐỀ</a></li>
+                    <li class="hover:bg-gray-600 active md:hover:bg-[#04065c]"><a href="du-doan-cau-lo.html">DỰ ĐOÁN CẦU LÔ</a></li>
+                    <li class="hover:bg-gray-600 active md:hover:bg-[#04065c]"><a href="keo-nha-cai.html">KÈO NHÀ CÁI</a></li>
+                    <li class="hover:bg-gray-600 active md:hover:bg-[#04065c]"><a href="soi-cau.html">SOI CẦU</a></li>
                 </ul>
                 <div onclick="CloseMenu()" class="closeMenu md:hidden absolute top-2 right-0 text-3xl text-white ">
                     <ion-icon name="close-outline"></ion-icon>
@@ -47,7 +47,10 @@ document.getElementsByClassName('footer')[0].innerHTML =`
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 py-4 ">
                 <div class="">
                     <h1 class="border-b p-2 font-bold">VỀ CHÚNG TÔI</h1>
-                    <p class="mt-10"> <span class="text-gray-400 font-bold">Lode88 </span> tự hào là nhà cái cung cấp các dịch vụ lô đề, số đề, soi cầu lô đề hàng đầu tại Việt Nam. Lode88 đã đặt bước đi tiên phong trong lĩnh vực Đánh Đề Trực Tuyến, hội đủ các kiểu đánh lô đề Miền Bắc, lô đề Miền Trung, lô đề Miền Nam với tỷ lệ lô đề ăn cao và hấp dẫn.</p>
+                    <p class="mt-10"> <span class="text-gray-400 font-bold">Lode08 </span> tự hào là nhà cái cung cấp các dịch vụ lô đề, số đề, soi cầu lô đề hàng đầu tại Việt Nam. Lode08 đã đặt bước đi tiên phong trong lĩnh vực Đánh Đề Trực Tuyến, hội đủ các kiểu đánh lô đề Miền Bắc, lô đề Miền Trung, lô đề Miền Nam với tỷ lệ lô đề ăn cao và hấp dẫn.</p>
+                    <div class="p-4 mt-4">
+                        <img src="./image/10001.svg" alt="logo" class="mx-auto w-[300px]">
+                    </div>
                 </div>
                 <div>
                     <h1 class="border-b p-2 font-bold">DANH MỤC CHÍNH</h1>
@@ -65,7 +68,7 @@ document.getElementsByClassName('footer')[0].innerHTML =`
             </div>
         </div>
         <div class="bg-[#1f0505] p-2 text-center text-white">
-            <p>Copyright 2024 © Lode88.city</p>
+            <p>Copyright 2024 © Lode08.com</p>
         </div>
     </div>
 `
